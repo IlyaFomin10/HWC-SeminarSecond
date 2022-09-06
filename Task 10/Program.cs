@@ -1,9 +1,9 @@
 ﻿// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 Console.WriteLine("Введите трехзначное число:");
 int number = Convert.ToInt32 (Console.ReadLine());
-int SecondNumber (int number)
+int SecondNumber (int numb)
 {
-    int arg1 = number / 10;
+    int arg1 = numb / 10;
     int arg2 = arg1 % 10;
     return arg2;
 }
